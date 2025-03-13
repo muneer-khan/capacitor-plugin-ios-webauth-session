@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "PalainteractiveCapacitorPluginIosWebauthSession",
+    name: "CapacitorPluginIosWebauthSession",
     platforms: [.iOS(.v14)],
     products: [
         .library(
-            name: "PalainteractiveCapacitorPluginIosWebauthSession",
+            name: "CapacitorPluginIosWebauthSession",
             targets: ["ASWebAuthSessionPlugin"])
     ],
     dependencies: [
