@@ -5,7 +5,7 @@ This Capacitor plugin is designed to support Auth banking through our payment ve
 ## Install
 
 ```bash
-npm install @palainteractive/capacitor-plugin-ios-webauth-session
+npm install --save https://github.com/muneer-khan/capacitor-plugin-ios-webauth-session.git
 npx cap sync
 ```
 
@@ -13,7 +13,6 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
 * [`startSession(...)`](#startsession)
 * [`cancelSession()`](#cancelsession)
 
